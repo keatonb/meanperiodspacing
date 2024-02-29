@@ -1,10 +1,11 @@
 # meanperiodspacing
 Statistical tests for mean spacings among a set of values.
 
+If you use this code in your work, I would appreciate an acknowledgement.
+
 I describe how these tests work in a blog post at https://keatonb.github.io/archivers/mps
 
 Usage example:
-
 ```python
 # Values to test for mean spacings
 values = np.array([640.533, 678.433, 597.554, 485.527, 604.642, 557.649, 749.27, 865.97]) 
@@ -43,5 +44,6 @@ for ax in axs:
 plt.tight_layout()
 plt.show()
 ```
-Here is the resulting plot:
+Here is the resulting plot, with all three tests supporting a mean period spacing around 38 seconds.
+
 ![mpstests](https://github.com/keatonb/meanperiodspacing/assets/6413923/4eae78b8-6cf6-431a-9fae-17d16a841733)
