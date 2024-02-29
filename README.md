@@ -1,4 +1,4 @@
-# meanperiodspacing
+# mean period spacing
 Statistical tests for mean spacings among a set of values.
 
 If you use this code in your work, I would appreciate an acknowledgement.
